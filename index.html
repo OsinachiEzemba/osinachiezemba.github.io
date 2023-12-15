@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2acf0267ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Logo4.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Data Scientist/Data Analyst</p>
+          <h1>Hi, I am <span>Osinachi EZEMBA</span></h1> 
+        </div>
+    </div>
+</div>
+<!-- -----about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user3.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and results-driven DATA SCIENTIST/ANALYST with a strong background in Python, 
+                    Power BI, R, SQL, Excel, Tableau and other data analytics tools. My analytical mindset, 
+                    combined with my ability to communicate complex insights, allows me to transform data into actionable solutions. 
+                    With a knack for problem-solving and a love for uncovering hidden patterns, 
+                    I thrive on tackling diverse data challenges.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Scripting for data and Machine Learning.</li>
+                            <li><span>Machine Learning</span><br>Trend forecasting through predictive modeling.</li>
+                            <li><span>MS Power BI</span><br>Dynamic data visualization for analytics.</li>
+                            <li><span>MS Excel</span><br> Analyzing insights in a spreadsheet.</li>
+                            <li><span>SQL</span><br>Efficient database querying for analysis.</li>
+                            <li><span>Tableau</span><br>Designing dashboards for analytics.</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan. 2023 - Dec. 2023</span><br>Data Science Internship at ExploreAI Academy, South Africa.</li>
+                            <li><span>Sep. 2022 - Oct. 2022</span><br>Data Analyst Internship at Side Hustle, Ibadan, Nigeria.</li>
+                            
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Data Sciences at ExploreAI Academy, South Africa.</li>
+                            <li><span>2019</span><br>B.Sc Biochemistry, Ebonyi State University, Abakaliki, Nigeria.</li>
+                            
+                        </ul>
+                    </div>       
+            </div>
+        </div>
+        <a href="#header" class="btn">Home</a>
+    </div>
+</div>
+
+<!-----portfolio------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="water.png">
+                <div class="layer">
+                    <h3>Rural Water Quality</h3>
+                    <p>Harnessing Data Analysis and Predictive Modeling to Enhance Water Quality Management in Catchment Areas.</p>
+                    <a href="https://github.com/OsinachiEzemba/Rural_Water_Quality"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="crime.png">
+                <div class="layer">
+                    <h3>USA HOMICIDE CASES</h3>
+                    <p>Revealing trends in U.S. homicides.</p>
+                    <a href="https://github.com/OsinachiEzemba/USA-Homicide-Cases"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="excel.png">
+                <div class="layer">
+                    <h3>SALES INSIGHTS WITH EXCEL</h3>
+                    <p>Unleash Your Sales Data Potential!</p>
+                    <a href="https://github.com/OsinachiEzemba/Excel_Project_Sales_Insights"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="absent.png">
+                <div class="layer">
+                    <h3>HR CASE STUDY: ABSENTEEISM</h3>
+                    <p>Absenteeism dashboard: trends, causes, performance insights.</p>
+                    <a href="https://github.com/OsinachiEzemba/HR_Absenteeism_Case_Study"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="movies.png">
+                <div class="layer">
+                    <h3>MOVIE RECOMMENDER SYSTEM</h3>
+                    <p>Unsupervised Learning for personalized movie suggestions.</p>
+                    <a href="https://github.com/OsinachiEzemba/Movie_Recommender_System"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="electricity.png">
+                <div class="layer">
+                    <h3>SPAIN ELECTRICITY SHORTFALL</h3>
+                    <p>Predicting daily electricity shortfall in Spain using Machine Learning.</p>
+                    <a href="https://github.com/OsinachiEzemba/Spain-Electricity-Shortfall"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="twitterx.png"><div class="layer">
+                    <h3>TWITTER SENTIMENTS CLASSIFICATION</h3>
+                    <p>Using Natural Language Processing to classify an individual's belief in climate change based on their tweets.</p>
+                    <a href="https://github.com/OsinachiEzemba/Twitter-Sentiments-Classification"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="south africa.png">
+                <div class="layer">
+                    <h3>SOUTH-AFRICAN LANGUAGE IDENTIFICATION</h3>
+                    <p>Identifying South-African Languages using Natural Language Processing.</p>
+                    <a href="https://github.com/OsinachiEzemba/South-African-Language-Identification"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#header" class="btn">Home</a>
+    </div>
+</div>
+<!-- ------------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ezembaosinachi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> (+234)-7063704730</p>
+                <div class="social-icons">
+                    <a href="http://linkedin.com/in/osinachi-ezemba-b03a9b128"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/OsinachiEzemba"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Osinachi_Ezemba_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjvpvgv" method="post">
+                    <input type="text" name= "Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy Osinachi. 2023. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
